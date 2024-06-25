@@ -134,3 +134,39 @@ hr{
   padding: 10px 20px;
   border: none;
 }
+.con1{
+  display: flex;
+  justify-content: space-between;
+}
+.line{
+  float: right;
+}
+.line1{
+  background-color: grey;
+  border-radius: 8px;
+  padding: 3px;
+  margin-bottom: 20px;
+  width: 50px;
+}
+.line2{
+  background-color: red;
+  border-radius: 8px;
+  padding: 3px;
+  margin-bottom: 20px;
+  width: 60px;
+}
+.line3{
+  background-color: green;
+  border-radius: 8px;
+  padding: 3px;
+  margin-bottom: 20px;
+  width: 220px;
+}
+.line4{
+  background-color: orange;
+  border-radius: 8px;
+  padding: 3px;
+  margin-bottom: 20px;
+  width: 180px;
+}
+

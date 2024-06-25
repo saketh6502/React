@@ -232,10 +232,18 @@ function About() {
         <Col sm={4} >
               <div className='sub4'>
                 <h3>Statistics</h3><br></br>
+                <div className='line'><p>4/65</p></div>
                 <p>Today Leave</p>
+                <div className='line1'></div><br></br>
+                <div className='line'><p>15/92</p></div>
                 <p>Pending Invoice</p>
+                <div className='line2'></div><br></br>
+                <div className='line'><p>85/122</p></div>
                 <p>Completed projects</p>
+                <div className='line3'></div><br></br>
+                <div className='line'><p>190/212</p></div>
                 <p>Open Tickets</p>
+                <div className='line4'></div><br></br>
               </div>
         </Col>
 
@@ -259,7 +267,7 @@ function About() {
                 <br></br>
                 <h5>Charles</h5>
                 <p>Leave Date: 20 June 2024</p>
-                <button className='btn btn-outline-danger'>Pending</button>
+                <button className='btn btn-outline-warning'>Pending</button>
                 <br></br>
                 <br></br>
                 <h5>Steve Rogers</h5>
