@@ -6,6 +6,7 @@ import Home from './Components/Body/Home';
 import About from './Components/Body/About';
 import Services from './Components/Body/Services';
 import Contact from './Components/Body/Contact';
+import Counter from './Components/Counter';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
@@ -25,6 +26,8 @@ function App() {
             <Route path='/about' exact Component={About}/>
             <Route path='/services' exact Component={Services}/>
             <Route path='/contact' exact Component={Contact}/>
+            <Route path='/counter' exact Component={Counter}/>
+
           </Routes>
           </Col>
       </Router>

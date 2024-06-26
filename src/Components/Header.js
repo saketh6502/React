@@ -9,6 +9,8 @@ function Header() {
       <Link className='nav' to ="/about"><li>About</li></Link>
       <Link className='nav' to ="/services"><li>Services</li></Link>
       <Link className='nav' to ="/contact"><li>Contact</li></Link>
+      <Link className='nav' to ="/counter"><li>Counter</li></Link>
+
       </ul>
     </div>
   )
